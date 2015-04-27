@@ -1,8 +1,8 @@
 domo.on.extras
 ==============
 
-A collection of [domo plugins](https://github.com/domojs/domo) to deal
-with events
+A collection of [domo plugins](https://github.com/domojs/domo) for
+event handling
 
 Usage
 -----
