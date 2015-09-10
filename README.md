@@ -1,15 +1,15 @@
-domo.on.extras
-==============
+dom.on.extras
+=============
 
-A collection of [domo plugins](https://github.com/domojs/domo) for
+A collection of [dom plugins](https://github.com/mujs/dom) for
 event handling
 
 Usage
 -----
 
 ```js
-var dom   = require('domo').use({
-  onInput : require('domo.on.input')
+var dom   = require('dom').use({
+  onInput : require('dom.on.input')
 });
 
 var logName = function (name) {
