@@ -1,8 +1,8 @@
-define('domo.on.input', function (require) {
+define('mu.dom.onInput', function (require) {
   'use strict';
 
-  var on  = require('domo.on'),
-      val = require('domo.val');
+  var on  = require('mu.dom.on'),
+      val = require('mu.dom.val');
 
   var onInput = function (node, listener) {
     on(node, 'input', function (event) {
@@ -14,10 +14,10 @@ define('domo.on.input', function (require) {
   return onInput;
 });
 
-define('domo.on.click', function (require) {
+define('mu.dom.onClick', function (require) {
   'use strict';
 
-  var on  = require('domo.on');
+  var on  = require('mu.dom.on');
 
   var onClick = function (node, listener) {
     on(node, 'click', function (event) {
@@ -29,10 +29,10 @@ define('domo.on.click', function (require) {
   return onClick;
 });
 
-define('domo.on.submit', function (require) {
+define('mu.dom.onSubmit', function (require) {
   'use strict';
 
-  var on  = require('domo.on');
+  var on  = require('mu.dom.on');
 
   var onSubmit = function (node, listener) {
     on(node, 'submit', function (event) {
